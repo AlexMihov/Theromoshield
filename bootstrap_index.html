@@ -55,13 +55,13 @@
             <li><a href="produkte/aussenwandbeschichtungen.html">Aussenwandbeschichtungen</a></li>
             <li><a href="produkte/innenwandbeschichtungen.html">Innenwandbeschichtungen</a></li>
             <li><a href="produkte/tankbeschichtungen.html">Tankbeschichtungen</a></li>
-            <li><a href="produkte/metalprimer.html">Metalprimer</a></li>
-            <li><a href="produkte/stuccoschild.html">Stuccoschild</a></li>
+            <li><a href="produkte/metalprimer.html">Metalgrundierung</a></li>
+            <li><a href="produkte/stuccoschild.html">Stuckschild</a></li>
             <li><a href="produkte/holz-_und_deckbeschichtungen.html">Holz- und Deckbeschichtungen</a></li>
             <li><a href="produkte/acryllic_flex_tac.html">Acryllic Flex Tac</a></li>
-            <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsictige Beschichtungen</a></li>
+            <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsichtige Beschichtungen</a></li>
             <li><a href="produkte/rostkonverter.html">Rostkonverter</a></li>
-            <li><a href="produkte/aussen-_und_innenprimer.html">Aussen- und Innenprimer</a></li>
+            <li><a href="produkte/aussen-_und_innenprimer.html">Aussen- und Innengrundierung</a></li>
 
           <!-- <li class="divider"></li>
           <li><a href="#">One more separated link</a></li> -->
@@ -130,13 +130,13 @@
       <div id="links">
           <a href="produkte_bilder/acryllic_flex_tac.jpg" title="Acryllic Flex Tac" data-gallery>
           </a>
-          <a href="produkte_bilder/aui_primer.jpg" title="Aussen- und Innenprimer" data-gallery>
+          <a href="produkte_bilder/aui_primer.jpg" title="Aussen- und Innengrundierung" data-gallery>
           </a>
-          <a href="produkte_bilder/metalprimer.jpg" title="Metallprimer" data-gallery> 
+          <a href="produkte_bilder/metalprimer.jpg" title="Metallgrundierung" data-gallery> 
           </a>
           <a href="produkte_bilder/rostkonverter.jpg" title="Rostkonverter" data-gallery>
           </a>
-          <a href="produkte_bilder/stuccoschild.jpg" title="Stuccoschild" data-gallery>
+          <a href="produkte_bilder/stuccoschild.jpg" title="Stuckschild" data-gallery>
           </a>
           <a href="produkte_bilder/tankbeschichtungen.jpg" title="Tankbeschichtungen" data-gallery>
           </a>
@@ -164,8 +164,19 @@
       blueimp.Gallery(
           document.getElementById('links').getElementsByTagName('a'),
           {
-              container: '#blueimp-gallery-carousel',
-              carousel: true
+	            container: '#blueimp-gallery-carousel',
+	            carousel: true,
+	            transitionSpeed: 777,
+	            hidePageScrollbars: false,
+			    toggleControlsOnReturn: false,
+			    toggleSlideshowOnSpace: false,
+			    enableKeyboardNavigation: false,
+			    closeOnEscape: false,
+			    closeOnSlideClick: false,
+			    closeOnSwipeUpOrDown: false,
+			    disableScroll: false,
+			    startSlideshow: true,
+			    continuous: true
           }
       );
       </script>    
