@@ -26,23 +26,23 @@ body{
 	height:150px;
 }
 
-nav ul ul {
+/*nav ul ul {
 	display: none;
-}
+}*/
 
-nav ul li:hover > ul {
+/*nav ul li:hover > ul {
 	display: block;
-}
+}*/
 
 #inner_container{
 	background-color: #DDD;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-.navbar-default{
+/*.navbar-default{
 	background-color:white;
 	border-style:none
-}
+}*/
 .footer{
 	clear:both;
 	font-size: 0.75em;

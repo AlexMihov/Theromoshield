@@ -41,15 +41,26 @@
         <img id="logo_right" src="logo_right.jpg">
       </div>
 
-
     <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand active" href="bootstrap_index.html">Home</a>
+        </div>
 
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav nav-justified">
-        <li class="active"><a href="#">Home</a></li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="nav navbar-nav">
         <li><a href="ueber_uns.html">Über uns</a></li>
+        <li><a href="produkte.html">Produktübersicht</a></li>
         <li class="dropdown">
-          <a href="produkte.html" class="dropdown-toggle" data-toggle="dropdown" id="products_dd">Produkte<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkte<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="produkte/dachbeschichtung.html">Dachbeschichtung</a></li>
             <li><a href="produkte/aussenwandbeschichtungen.html">Aussenwandbeschichtungen</a></li>
@@ -59,7 +70,7 @@
             <li><a href="produkte/stuccoschild.html">Stuckschild</a></li>
             <li><a href="produkte/holz-_und_deckbeschichtungen.html">Holz- und Deckbeschichtungen</a></li>
             <li><a href="produkte/acryllic_flex_tac.html">Acryllic Flex Tac</a></li>
-            <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsichtige Beschichtungen</a></li>
+            <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsictige Beschichtungen</a></li>
             <li><a href="produkte/rostkonverter.html">Rostkonverter</a></li>
             <li><a href="produkte/aussen-_und_innenprimer.html">Aussen- und Innengrundierung</a></li>
 
@@ -68,18 +79,22 @@
           </ul>
         </li>
         <li><a href="verteiler.html">Verteiler</a></li>
-        <li class="dropdown">
-          <a href="contact.html" class="dropdown-toggle" data-toggle="dropdown" id="contact_dd">Kontakt<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="contact.html">Kontakt generell</a></li>
-            <li><a href="verteiler_werden.html">Verteiler werden</a></li>
-
-          <!-- <li class="divider"></li>
-          <li><a href="#">One more separated link</a></li> -->
           </ul>
-        </li>
-      </ul>
-    </div>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="contact.html">Kontakt generell</a></li>
+                <li><a href="verteiler_werden.html">Verteiler werden</a></li>
+
+                <!--<li class="divider"></li>
+                <li><a href="#">Separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
 
     <div class="container" id="inner_container">
@@ -160,6 +175,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+      <script src="dist/js/bootstrap.js"></script>      
       <script>
       blueimp.Gallery(
           document.getElementById('links').getElementsByTagName('a'),
