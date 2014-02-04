@@ -100,9 +100,22 @@ nav ul ul {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
-  .navbar-default {
-    width: 530px;
+  .navbar-default:before,
+  .navbar-default:after {
+    display: table;
+  	content: " ";
+
   }
+  .navbar-default, .navbar-header {
+  	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-sizing: content-box;
+   	-moz-box-sizing: content-box;
+    box-sizing: content-box;	
+  }
+  .navbar-toggle {
+	width:100%;
+  }	
   .gallerie {
     width: 300px;
     margin-left:12%;
@@ -120,9 +133,23 @@ nav ul ul {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-  .navbar-default {
-    width: 310px;
+  .navbar-default:before,
+  .navbar-default:after {
+    display: table;
+  	content: " ";
+
   }
+  .navbar-default, .navbar-header {
+  	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-sizing: content-box;
+   	-moz-box-sizing: content-box;
+    box-sizing: content-box;	
+  }
+  .navbar-toggle {
+	width:100%;
+  }
+
   .gallerie {
     width: 200px;
     margin-left:12%;
@@ -135,7 +162,7 @@ nav ul ul {
   }  
   .nav-justified{
   	display:none;
-  }
+  }	    
 }
 
 .blueimp-gallery-carousel{
