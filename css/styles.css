@@ -115,8 +115,15 @@ nav ul ul {
   }
   .navbar-toggle {
 	width:100%;
-	background-color: rgb(221, 221, 221);;
-  }	
+	background-color: rgb(221, 221, 221);
+  }
+  .pnav {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  font-style: bolder;
+  color: rgb(51, 51, 51);
+  }  	
   .gallerie {
     width: 300px;
     margin-left:12%;
@@ -149,6 +156,16 @@ nav ul ul {
   }
   .navbar-toggle {
 	width:100%;
+  background-color: rgb(221, 221, 221);
+  max-height: 60px;
+  }
+
+  .pnav {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif bold;
+  font-size: 20px;
+  font-weight:bold;
+  font-style: bolder;
+  color: rgb(51, 51, 51);
   }
 
   .gallerie {
