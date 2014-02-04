@@ -20,6 +20,9 @@ body{
 	min-width: 960px;
 	max-width: 960px;
 }
+.nav-tabs > li > a {
+  padding: 10px 15px;
+}
 
 #message{
 	width: 600px;
