@@ -812,17 +812,29 @@ pre code {
   .container {
     width: 750px;
   }
+  .gallerie {
+    width:357px;
+    margin-left:12%;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+  .gallerie {
+    width:577px;
+    margin-left:12%;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .gallerie {
+    width:777px;
+    margin-left:12%;
   }
 }
 
