@@ -26,23 +26,124 @@ body{
 	height:150px;
 }
 
-/*nav ul ul {
+nav ul ul {
 	display: none;
-}*/
+}
 
-/*nav ul li:hover > ul {
-	display: block;
-}*/
 
 #inner_container{
 	background-color: #DDD;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-/*.navbar-default{
+
+.navbar-default{
 	background-color:white;
-	border-style:none
-}*/
+	border-style:none;
+}
+
+.navbar-header{
+	max-height: 50px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .navbar-default {
+    width: 1170px;
+  }
+  .gallerie {
+    width: 777px;
+    margin-left:12%;
+  }
+  .navbar-nav{
+  	display: none;
+  }
+	nav ul li:hover > ul {
+		display: block;
+	}      
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-default {
+    width: 970px;
+  }
+  .gallerie {
+    width: 577px;
+    margin-left:12%;
+  }
+  .navbar-nav{
+  	display: none;
+  }
+	nav ul li:hover > ul {
+		display: block;
+	}      
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-default {
+    width: 750px;
+  }
+  .gallerie {
+    width: 400px;
+    margin-left:12%;
+  }
+  .navbar-nav{
+  	display: none;
+  }
+	nav ul li:hover > ul {
+		display: block;
+	}     
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .navbar-default {
+    width: 530px;
+  }
+  .gallerie {
+    width: 300px;
+    margin-left:12%;
+  }
+  .masthead {
+  	position:relative;
+  }
+  #logo_right{
+  	display:none;
+  }
+  .nav-justified{
+  	display:none;
+  } 
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .navbar-default {
+    width: 310px;
+  }
+  .gallerie {
+    width: 200px;
+    margin-left:12%;
+  }
+  .masthead {
+  	position:relative;
+  }
+  #logo_right{
+  	display:none;
+  }  
+  .nav-justified{
+  	display:none;
+  }
+}
+
+.blueimp-gallery-carousel{
+	background-color: rgb(51, 51, 51);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
 .footer{
 	clear:both;
 	font-size: 0.75em;
