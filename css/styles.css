@@ -49,8 +49,21 @@ nav ul ul {
 	max-height: 50px;
 }
 
+.map_glyph{
+  text-align: center;
+}
+
+.map_glyph > a {
+  text-decoration: none;
+}
+
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+  #iframe_map{
+    height: 350px;
+    width: 1110px;    
+  }  
   .navbar-default {
     width: 1170px;
   }
@@ -68,6 +81,10 @@ nav ul ul {
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #iframe_map{
+  height: 350px;
+  width: 910px;    
+  } 
   .navbar-default {
     width: 970px;
   }
@@ -85,6 +102,10 @@ nav ul ul {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  #iframe_map{
+  height: 350px;
+  width: 690px;    
+  }   
   .navbar-default {
     width: 750px;
   }
@@ -103,6 +124,11 @@ nav ul ul {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
+  #iframe_map{
+  height: 350px;
+  width: 100%;    
+  } 
+
   .navbar-default:before,
   .navbar-default:after {
     display: table;
@@ -110,10 +136,10 @@ nav ul ul {
 
   }
   .navbar-default, .navbar-header {
-  	margin-right: auto;
-	margin-left: auto;
-	-webkit-box-sizing: content-box;
-   	-moz-box-sizing: content-box;
+    margin-right: auto;
+  	margin-left: auto;
+  	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
     box-sizing: content-box;	
   }
   .navbar-toggle {
@@ -144,6 +170,10 @@ nav ul ul {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  #iframe_map{
+  height: 350px;
+  width: 100%;    
+  }   
   .navbar-default:before,
   .navbar-default:after {
     display: table;
@@ -160,7 +190,6 @@ nav ul ul {
   .navbar-toggle {
 	width:100%;
   background-color: rgb(221, 221, 221);
-  max-height: 60px;
   }
 
   .pnav {
