@@ -187,9 +187,7 @@ nav ul ul {
   .masthead {
   	position:relative;
   }
-  #logo_right{
-  	display:none;
-  }
+  
   .nav-justified{
     display: none;
     visibility: hidden !important;
@@ -230,9 +228,6 @@ nav ul ul {
   }
   .masthead {
   	position:relative;
-  }
-  #logo_right{
-  	display:none;
   }  
   .nav-justified{
     display: none;

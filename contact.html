@@ -28,10 +28,15 @@
 <body>
     <div class="container">
 
-        <div class="masthead">
+      <div class="masthead hidden-xs">
         <img id="logo_left" src="logo_left.jpg">
         <img id="logo_right" src="logo_right.jpg">
-        
+      </div>
+      <div class="masthead visible-xs">
+        <img id="logo_left" src="logo_left_xs.jpg">
+        <img id="logo_right" src="logo_right_xs.jpg">
+      </div> 
+       
       <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -141,7 +146,10 @@
         <label for="email">Email-Addresse</label>
         <input type="email" class="form-control" id="email" placeholder="Email" required>
       </div>
-      
+      <div class="form-group special2">
+      <label for="message">Ihre Nachricht</label>
+      <textarea class="form-control" id="message" rows="5" name="text" placeholder="Geben Sie Ihre Nachricht hier ein" required></textarea>
+      </div>
       <div class="form-group">
       <button type="submit" class="btn btn-success">Submit</button>
       </div>
