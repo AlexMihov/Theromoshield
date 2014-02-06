@@ -91,7 +91,8 @@ nav ul ul {
 	nav ul li:hover > ul {
 		display: block;
 	}
-  #xs-visible{
+  #xs-visible,
+  #logo_xs{
     display:none;
     visibility:hidden;
   }
@@ -155,7 +156,8 @@ nav ul ul {
    #xs-hidden3{
     display:inline-block;
   }
-   #xs-hidden4{
+   #xs-hidden4,
+   #logo_xs{
     display: none;
     visibility: hidden;
   }       
@@ -199,7 +201,8 @@ nav ul ul {
     width: 477px;
     margin-left:10%;
   }
-  .navbar-nav{
+  .navbar-nav,
+  #logo_xs{
   	display: none;
     visibility: hidden !important;
   }
@@ -236,7 +239,8 @@ nav ul ul {
     display: none;
     visibility: hidden;
   }
-   #xs-hidden4{
+   #xs-hidden4,
+   #logo_xs{
     display: none;
     visibility: hidden;
   }  
@@ -281,8 +285,10 @@ nav ul ul {
   	content: " ";
 
   }
-  #xs-visible{
+  #xs-visible,
+  #logo_xs{
     display: block;
+    visibility:visible;
   }  
 
   #xs-hidden1{
