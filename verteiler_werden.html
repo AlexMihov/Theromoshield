@@ -133,40 +133,46 @@
 		Wir suchen dringend für den Distributoren für die Länder Polen, UKRAINE, Slowenien und Bosnien-Herzegowina.
 		</p>
 		</div>
-    </div>
-
-    <form role="form" class="col-lg-4" style="padding-top:30px; padding-bottom:20px; padding-left: 40px;">
-      <div class="form-group">
+    
+    <form role="form">
+      <div class="form-group special">
         <label for="name">Vorname</label>
         <input type="text" class="form-control" id="name" placeholder="Vorname" required>
       </div>
-      <div class="form-group">
+      <div class="form-group special">
         <label for="nachname">Nachname</label>
         <input type="text" class="form-control" id="nachname" placeholder="Nachname" required>
       </div>
-      <div class="form-group">
+      <div class="form-group special">
         <label for="email">Email-Addresse</label>
         <input type="email" class="form-control" id="email" placeholder="Email" required>
       </div>
-      <div class="form-group">
+      <div class="form-group special">
         <label for="tel">Ihre Mobil- oder Festnetznummer</label>
         <input type="tel" class="form-control" id="tel" placeholder="Mobil- oder Festnetznummer" required>
       </div>
-      <div class="form-group">
+      <div class="form-group special">
         <label for="city">Ort/Region</label>
         <input type="city" class="form-control" id="city" placeholder="Ort oder Region" required>
       </div>
-      <div class="form-group">
+      <div class="form-group special hidden-xs">
       <label>Land</label>
-      <div class="bfh-selectbox bfh-countries" data-country="DE" data-flags="true">
+      <div class="bfh-selectbox bfh-countries " data-country="DE" data-flags="true">
       </div>
       </div>
+      <div class="form-group special visible-xs">
+      <label>Land</label>
+      <select class="form-control bfh-countries" data-country="DE"></select>
+      </div>
+      <div class="form-group special2">
       <label for="message">Ihre Nachricht</label>
-      <textarea class="form-control" id="message" name="text" placeholder="Geben Sie Ihre Nachricht hier ein" required></textarea>
-      </br>
-
+      <textarea class="form-control" id="message" rows="5" name="text" placeholder="Geben Sie Ihre Nachricht hier ein" required></textarea>
+      </div>
+      <div class="form-group">
       <button type="submit" class="btn btn-success">Submit</button>
+      </div>
     </form>
+    </div>
 
       <div class="footer">
         <p><b>&copy; 2014 Ser-Ba Grup All Rights Reserved. SER-BA GRUP İNŞ.MAK.TUR.İÇ VE DIŞ TİC.LTD.ŞTİ.</b> </br>
