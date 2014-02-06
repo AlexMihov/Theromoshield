@@ -90,7 +90,26 @@ nav ul ul {
   }
 	nav ul li:hover > ul {
 		display: block;
-	}      
+	}
+  #xs-visible{
+    display:none;
+    visibility:hidden;
+  }
+  #xs-hidden{
+    display: table;
+  }
+  #xs-hidden1{
+    display:inline-block;
+  }
+   #xs-hidden2{
+    display:inline-block;
+  }
+   #xs-hidden3{
+    display:inline-block;
+  }
+   #xs-hidden4{
+    display: inline-block;
+  }      
 }
 
 /* Portrait tablets and medium desktops */
@@ -119,7 +138,27 @@ nav ul ul {
   }
 	nav ul li:hover > ul {
 		display: block;
-	}      
+	}
+  #xs-visible{
+    display:none;
+    visibility:hidden;
+  }
+  #xs-hidden{
+    display: table;
+  }  
+  #xs-hidden1{
+    display:inline-block;
+  }
+   #xs-hidden2{
+    display:inline-block;
+  }
+   #xs-hidden3{
+    display:inline-block;
+  }
+   #xs-hidden4{
+    display: none;
+    visibility: hidden;
+  }       
 }
 
 /* Portrait tablets and small desktops */
@@ -130,7 +169,25 @@ nav ul ul {
   .special2{
     width:70%;
     height:100%;
-  }  
+  }
+  #xs-visible{
+    display:block;
+  }
+  #xs-hidden1{
+    display:inline-block;
+  }
+   #xs-hidden2{
+    display:inline-block;
+  }
+   #xs-hidden3,
+   #xs-hidden{
+    display: none;
+    visibility: hidden;
+  }
+   #xs-hidden4{
+    display: none;
+    visibility: hidden;
+  }      
   #iframe_map{
   height: 350px;
   width: 690px;    
@@ -147,7 +204,7 @@ nav ul ul {
     visibility: hidden !important;
   }
 	nav ul li:hover > ul {
-		display: block;
+		display: inline-block;
 	}     
 
 }
@@ -165,6 +222,24 @@ nav ul ul {
   	content: " ";
 
   }
+  #xs-visible{
+    display: block;
+  }  
+  #xs-hidden1{
+    display:inline-block;
+  }
+   #xs-hidden2{
+    display:inline-block;
+  }
+   #xs-hidden3,
+   #xs-hidden{
+    display: none;
+    visibility: hidden;
+  }
+   #xs-hidden4{
+    display: none;
+    visibility: hidden;
+  }  
   .navbar-default, .navbar-header {
     margin-right: auto;
   	margin-left: auto;
@@ -205,6 +280,26 @@ nav ul ul {
     display: table;
   	content: " ";
 
+  }
+  #xs-visible{
+    display: block;
+  }  
+
+  #xs-hidden1{
+    display:inline-block;
+  }
+   #xs-hidden2{
+    display: none;
+    visibility: hidden;
+  }
+   #xs-hidden3,
+   #xs-hidden{
+    display: none;
+    visibility: hidden;
+  }
+   #xs-hidden4{
+    display: none;
+    visibility: hidden;
   }
   .navbar-default, .navbar-header {
   	margin-right: auto;
