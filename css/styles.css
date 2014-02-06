@@ -31,6 +31,11 @@ body{
 
 nav ul ul {
 	display: none;
+  border-bottom: 1px solid black;
+}
+
+.nav-tabs > li > a {
+  color: #555;
 }
 
 
