@@ -25,13 +25,14 @@ body{
 }
 
 #message{
-	width: 600px;
-	height:150px;
+	width: 100%;
+	height: 100%;
 }
 
 nav ul ul {
 	display: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px;
+  border: 1px solid black;
 }
 
 .nav-tabs > li > a {
@@ -65,6 +66,13 @@ nav ul ul {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+  .special{
+    width:33.3% !important;
+  }
+  .special2{
+    width:60%;
+    height:100%;
+  }
   #iframe_map{
     height: 350px;
     width: 1110px;    
@@ -77,7 +85,8 @@ nav ul ul {
     margin-left:12%;
   }
   .navbar-nav{
-  	display: none;
+    display: none;
+    visibility: hidden !important;
   }
 	nav ul li:hover > ul {
 		display: block;
@@ -86,6 +95,13 @@ nav ul ul {
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .special{
+    width:33.3% !important;
+  }
+  .special2{
+    width:60%;
+    height:100%;
+  }  
   #iframe_map{
   height: 350px;
   width: 910px;    
@@ -94,11 +110,12 @@ nav ul ul {
     width: 970px;
   }
   .gallerie {
-    width: 577px;
-    margin-left:12%;
+    width: 677px;
+    margin-left:9%;
   }
   .navbar-nav{
-  	display: none;
+    display: none;
+    visibility: hidden !important;
   }
 	nav ul li:hover > ul {
 		display: block;
@@ -107,6 +124,13 @@ nav ul ul {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  .special{
+    width:50% !important;
+  }
+  .special2{
+    width:70%;
+    height:100%;
+  }  
   #iframe_map{
   height: 350px;
   width: 690px;    
@@ -115,11 +139,12 @@ nav ul ul {
     width: 750px;
   }
   .gallerie {
-    width: 400px;
-    margin-left:12%;
+    width: 477px;
+    margin-left:10%;
   }
   .navbar-nav{
   	display: none;
+    visibility: hidden !important;
   }
 	nav ul li:hover > ul {
 		display: block;
@@ -158,10 +183,7 @@ nav ul ul {
   font-style: bolder;
   color: rgb(51, 51, 51);
   }  	
-  .gallerie {
-    width: 300px;
-    margin-left:12%;
-  }
+ 
   .masthead {
   	position:relative;
   }
@@ -169,7 +191,8 @@ nav ul ul {
   	display:none;
   }
   .nav-justified{
-  	display:none;
+    display: none;
+    visibility: hidden !important;
   } 
 }
 
@@ -197,17 +220,13 @@ nav ul ul {
   background-color: rgb(221, 221, 221);
   }
 
-  .pnav {
+  .pnav,
+  .kontakt {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif bold;
   font-size: 20px;
   font-weight:bold;
   font-style: bolder;
   color: rgb(51, 51, 51);
-  }
-
-  .gallerie {
-    width: 200px;
-    margin-left:12%;
   }
   .masthead {
   	position:relative;
@@ -216,7 +235,8 @@ nav ul ul {
   	display:none;
   }  
   .nav-justified{
-  	display:none;
+    display: none;
+    visibility: hidden !important;
   }	    
 }
 
