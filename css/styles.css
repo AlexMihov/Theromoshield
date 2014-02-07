@@ -291,7 +291,9 @@ nav ul ul {
   .navbar-default:after {
     display: table;
   	content: " ";
-
+  }
+  .col-lg-4>h3 {
+    font-size: 19px;
   }
   #xs-visible,
   #logo_xs,
@@ -320,11 +322,11 @@ nav ul ul {
     visibility: hidden;
   }
   .navbar-default, .navbar-header {
-  	margin-right: auto;
+  margin-right: auto;
 	margin-left: auto;
 	-webkit-box-sizing: content-box;
-   	-moz-box-sizing: content-box;
-    box-sizing: content-box;	
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;	
   }
   .navbar-toggle {
 	width:100%;
