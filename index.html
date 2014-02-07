@@ -1,15 +1,232 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Offielle Seite der Ser-Bagroup</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-	<div id = "main">
-	<header>
-		<img src="logo.jpg">
-	</header>
-	</div> <!--end of main-->
 
-</body>
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Offizielle Seite der Ser-Bagroup</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dist/css/justified-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="dist/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-image-gallery.min.css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead hidden-xs">
+        <img id="logo_left" src="logos/logo_left.jpg">
+        <img id="logo_right" src="logos/logo_right.jpg">
+      </div>
+      <div class="masthead visible-xs">
+        <img id="logo_left" src="logos/logo_left_xs.jpg">
+        <img id="logo_right" src="logos/logo_right_xs.jpg">
+      </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button style ="float:left;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <p class="pnav">Navigation</p>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="nav nav-justified">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="ueber_uns.html">Über uns</a></li>
+            <li><a href="produkte.html">Produktübersicht</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkte<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="produkte/dachbeschichtung.html">Dachbeschichtung</a></li>
+                <li><a href="produkte/aussenwandbeschichtungen.html">Aussenwandbeschichtungen</a></li>
+                <li><a href="produkte/innenwandbeschichtungen.html">Innenwandbeschichtungen</a></li>
+                <li><a href="produkte/tankbeschichtungen.html">Tankbeschichtungen</a></li>
+                <li><a href="produkte/metalprimer.html">Metalgrundierung</a></li>
+                <li><a href="produkte/stuccoschild.html">Stuckschild</a></li>
+                <li><a href="produkte/holz-_und_deckbeschichtungen.html">Holz- und Deckbeschichtungen</a></li>
+                <li><a href="produkte/acryllic_flex_tac.html">Acryllic Flex Tac</a></li>
+                <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsictige Beschichtungen</a></li>
+                <li><a href="produkte/rostkonverter.html">Rostkonverter</a></li>
+                <li><a href="produkte/aussen-_und_innenprimer.html">Aussen- und Innengrundierung</a></li>
+
+              <!-- <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li> -->
+              </ul>
+            </li>
+            <li><a href="verteiler.html">Verteiler</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="contact.html">Kontakt generell</a></li>
+                <li><a href="verteiler_werden.html">Verteiler werden</a></li>
+
+            <!--<li class="divider"></li>
+                <li><a href="#">Separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="ueber_uns.html">Über uns</a></li>
+            <li><a href="produkte.html">Produktübersicht</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkte<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="produkte/dachbeschichtung.html">Dachbeschichtung</a></li>
+                <li><a href="produkte/aussenwandbeschichtungen.html">Aussenwandbeschichtungen</a></li>
+                <li><a href="produkte/innenwandbeschichtungen.html">Innenwandbeschichtungen</a></li>
+                <li><a href="produkte/tankbeschichtungen.html">Tankbeschichtungen</a></li>
+                <li><a href="produkte/metalprimer.html">Metalgrundierung</a></li>
+                <li><a href="produkte/stuccoschild.html">Stuckschild</a></li>
+                <li><a href="produkte/holz-_und_deckbeschichtungen.html">Holz- und Deckbeschichtungen</a></li>
+                <li><a href="produkte/acryllic_flex_tac.html">Acryllic Flex Tac</a></li>
+                <li><a href="produkte/durchsichtige_beschichtungen.html">Durchsictige Beschichtungen</a></li>
+                <li><a href="produkte/rostkonverter.html">Rostkonverter</a></li>
+                <li><a href="produkte/aussen-_und_innenprimer.html">Aussen- und Innengrundierung</a></li>
+
+              <!-- <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li> -->
+              </ul>
+            </li>
+            <li><a href="verteiler.html">Verteiler</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="contact.html">Kontakt generell</a></li>
+                <li><a href="verteiler_werden.html">Verteiler werden</a></li>
+
+            <!--<li class="divider"></li>
+                <li><a href="#">Separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container" id="inner_container">
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+            <h1>CLIMATE-SHIELD&reg</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <div class="fluid">   
+          <div class="gallerie">
+            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+              <!-- The container for the modal slides -->
+              <div class="slides"></div>
+              <!-- Controls for the borderless lightbox -->
+              <h3 class="title"></h3>
+              <a class="prev">‹</a>
+              <a class="next">›</a>
+              <a class="play-pause"></a>
+              <ol class="indicator"></ol>
+            </div>
+          </div>
+            <p><a class="btn btn-lg btn-success" href="produkte.html" role="button">Zu den Produkten</a></p>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Safari bug warning!</h2>
+            <p class="text-danger">Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-lg-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+            
+
+      <div id="links">
+          <a href="produkte_bilder/acryllic_flex_tac.jpg" title="Acryllic Flex Tac" data-gallery>
+          </a>
+          <a href="produkte_bilder/aui_primer.jpg" title="Aussen- und Innengrundierung" data-gallery>
+          </a>
+          <a href="produkte_bilder/metalprimer.jpg" title="Metallgrundierung" data-gallery> 
+          </a>
+          <a href="produkte_bilder/rostkonverter.jpg" title="Rostkonverter" data-gallery>
+          </a>
+          <a href="produkte_bilder/stuccoschild.jpg" title="Stuckschild" data-gallery>
+          </a>
+          <a href="produkte_bilder/tankbeschichtungen.jpg" title="Tankbeschichtungen" data-gallery>
+          </a>
+          <a href="produkte_bilder/dachbeschichtung.jpg" title="Dachbeschichtungen" data-gallery>
+          </a>         
+      </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p><b>&copy; 2014 Ser-Ba Grup All Rights Reserved. SER-BA GRUP İNŞ.MAK.TUR.İÇ VE DIŞ TİC.LTD.ŞTİ.</b> </br>
+          Ümit Mahallesi, 2527.Sokak No:8 Ümitköy Yenimahalle/Ankara-Türkiye   +90 312 230 50 07     +90 312 230 50 08</p>
+          <p id="kontakt">Kontakt: Herr Hakan Ersoy, Verteiler, Telefon: +90 534 433 36 69</p>
+          <img id="logo_xs" src="logos/logo_bottom.jpg">
+      </div>
+      </div><!--inner container-->
+    </div> <!-- /container -->
+    </br>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+      <script src="dist/js/bootstrap.js"></script>      
+      <script>
+      blueimp.Gallery(
+          document.getElementById('links').getElementsByTagName('a'),
+          {
+	            container: '#blueimp-gallery-carousel',
+	            carousel: true,
+	            transitionSpeed: 777,
+	            hidePageScrollbars: false,
+			    toggleControlsOnReturn: false,
+			    toggleSlideshowOnSpace: false,
+			    enableKeyboardNavigation: false,
+			    closeOnEscape: false,
+			    closeOnSlideClick: false,
+			    closeOnSwipeUpOrDown: false,
+			    disableScroll: false,
+			    startSlideshow: true,
+			    continuous: true
+          }
+      );
+      </script>    
+  </body>
 </html>
