@@ -86,9 +86,6 @@ nav ul ul {
 #boss{
   width: 300px;
   border-radius: 5px;
-  float: left;
-  -moz-transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
 }
 
 .about_container{
