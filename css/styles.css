@@ -1,7 +1,7 @@
-body{
-	
-}
+/*v---------------------------- Global Settings: start ---------------------------v*/
 
+body{
+}
 
 #logo_left{
 	margin-bottom: 20px;
@@ -63,6 +63,46 @@ nav ul ul {
   text-decoration: none;
 }
 
+.blueimp-gallery-carousel{
+  background-color: rgb(51, 51, 51);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.footer{
+  clear:both;
+  font-size: 0.75em;
+  padding-top: -10px;
+  margin-bottom: 10px;
+}
+#kontakt{
+  font-size: 1.3em;
+}
+
+#boss{
+  width: 300px;
+  border-radius: 5px;
+  float: left;
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+.about_container{
+  margin: 30px 10px 10px 30px;
+
+}
+
+.panel-default > .panel-heading{
+  
+}
+
+.panel{
+  box-shadow: 5px 5px 3px #C0C0C0;
+  border-radius: 10px;
+}
+/*---------------------------- Global Settings: end ---------------------------*/
+
+/*---------------------------v Responsive Settings: start v--------------------*/
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -349,41 +389,4 @@ nav ul ul {
     visibility: hidden !important;
   }	    
 }
-
-.blueimp-gallery-carousel{
-	background-color: rgb(51, 51, 51);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-}
-.footer{
-	clear:both;
-	font-size: 0.75em;
-	padding-top: -10px;
-	margin-bottom: 10px;
-}
-#kontakt{
-	font-size: 1.3em;
-}
-
-#boss{
-	width: 300px;
-	border-radius: 5px;
-	float: left;
-  -moz-transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-}
-
-.about_container{
-	margin: 30px 10px 10px 30px;
-
-}
-
-.panel-default > .panel-heading{
-	
-}
-
-.panel{
-	box-shadow: 5px 5px 3px #C0C0C0;
-	border-radius: 10px;
-}
+/*--------------------------- Responsive Settings: end --------------------*/
