@@ -2,6 +2,10 @@
 
 body{
 }
+.lead{
+  text-align:justify;
+  white-space: pre;
+}
 
 #logo_left{
 	margin-bottom: 20px;
