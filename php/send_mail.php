@@ -21,7 +21,7 @@ if (isset($error)) {
 }*/
 // write the email content
 $email_content = "Isim: " . $name;
-$email_content .= $nachname."\n";
+$email_content .= " ".$nachname."\n";
 $email_content .= "Email: " . $email."\n";
 $email_content .= "Mesaj:" ."\n".$message;
 // send the email
