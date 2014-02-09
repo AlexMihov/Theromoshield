@@ -34,5 +34,5 @@ mail ("hakanersoy.he@gmail.com", "Ben yeni mailim", $email_content, $header);
 
 
 
-header("Location: ../contact.html")); exit;
+header("Location: ../contact.html"); exit;
 ?>

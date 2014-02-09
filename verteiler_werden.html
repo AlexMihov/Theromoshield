@@ -140,7 +140,7 @@
 		</p>
 		</div>
     
-    <form role="form">
+    <form method="POST" action="php/distributor.php" role="form">
       <div class="form-group special">
         <label for="name">Vorname</label>
         <input type="text" class="form-control" id="name" name = "name"placeholder="Vorname" required>
@@ -162,20 +162,20 @@
         <input type="city" class="form-control" name="city" id="city" placeholder="Ort oder Region" required>
       </div>
       <div class="form-group special hidden-xs">
-      <label>Land</label>
-      <div class="bfh-selectbox bfh-countries" data-country="DE" data-flags="true">
-      </div>
+        <label>Land</label>
+        <div class="bfh-selectbox bfh-countries" data-country="DE" data-flags="true">
+        </div>
       </div>
       <div class="form-group special visible-xs">
-      <label>Land</label>
-      <select class="form-control bfh-countries" name="country" data-country="DE"></select>
+        <label>Land</label>
+        <select class="form-control bfh-countries" name="country" data-country="DE"></select>
       </div>
       <div class="form-group special2">
-      <label for="message">Ihre Nachricht</label>
-      <textarea class="form-control" id="message" rows="5" name="message" placeholder="Geben Sie Ihre Nachricht hier ein" required></textarea>
+        <label for="message">Ihre Nachricht</label>
+        <textarea class="form-control" id="message" rows="5" name="message" placeholder="Geben Sie Ihre Nachricht hier ein" required></textarea>
       </div>
       <div class="form-group">
-      <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
       </div>
     </form>
     <a href="#"><button type="button" class="btn btn-default btn-md" style="float:right;">
