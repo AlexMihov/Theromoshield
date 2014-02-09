@@ -10,11 +10,12 @@ body{
 
 #logo_left{
 	margin-bottom: 20px;
-	/*float:left;*/
+  max-width: 100%;
 }
 
 #logo_right{
-	float:right;
+  max-width: 100%;
+  float: right; 
 }
 
 #main{
@@ -436,7 +437,8 @@ nav ul ul {
   .nav-justified{
     display: none;
     visibility: hidden !important;
-  } 
+  }
+
 }
 
 /* Landscape phones and smaller */
@@ -446,6 +448,11 @@ nav ul ul {
     width: 100%;
     height: 225px;
   }
+
+  #logo_left{
+  margin-bottom: 20px;
+  width: 100%
+}
 
   #iframe_map{
   height: 350px;
@@ -464,7 +471,7 @@ nav ul ul {
   }
 
   .col-lg-4>h3 {
-    font-size: 22px;
+    font-size: 30px;
   }
   .col-lg-4 {
     margin-top: 15%;

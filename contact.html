@@ -17,9 +17,6 @@
     <link href="dist/css/justified-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,15 +24,18 @@
     <![endif]-->
 <body>
     <div class="container">
-
-      <div class="masthead hidden-xs">
-        <img id="logo_left" src="logos/logo_left.jpg">
-        <img id="logo_right" src="logos/logo_right.jpg">
-      </div>
-      <div class="masthead visible-xs">
-        <img id="logo_left" src="logos/logo_left_xs.jpg">
-        <img id="logo_right" src="logos/logo_right_xs.jpg">
-      </div> 
+        <div class="hidden-xs">
+          <img id="logo_left" src="logos/logo_left.jpg">
+          <img id="logo_right" src="logos/logo_right.jpg">
+        </div>
+        <div class="row visible-xs">
+          <div class="col-xs-6">
+            <img class="img-responsive" src="logos/logo_left.jpg">
+          </div>  
+          <div class="col-xs-6">  
+            <img class="img-responsive" src="logos/logo_right.jpg">
+          </div>
+        </div>
        
       <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
