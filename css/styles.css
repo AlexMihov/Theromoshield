@@ -2,10 +2,6 @@
 
 body{
 }
-#lead{
-  text-align:justify;
-  white-space: pre;
-}
 
 #logo_left{
 	margin-bottom: 20px;
@@ -83,7 +79,8 @@ nav ul ul {
   font-size: 1.3em;
 }
 
-#boss{
+#boss,
+#bos{
   border-radius: 5px;
 }
 
@@ -106,6 +103,15 @@ nav ul ul {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+  #bos{
+    width: 500px;
+  }
+
+  #iframe_vid{
+    width: 100%;
+    height: 500px;
+  }
+
   .special{
     width:33.3% !important;
   }
@@ -125,8 +131,8 @@ nav ul ul {
   }
 
   .gallerie {
-    width: 777px;
-    margin-left:12%;
+    width: 677px;
+    margin-left:16%;
   }
 
   .navbar-nav{
@@ -174,6 +180,13 @@ nav ul ul {
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #bos{
+    width: 370px;
+  }
+  #iframe_vid{
+    width: 100%;
+    height: 450px;
+  }
   .special{
     width:33.3% !important;
   }
@@ -243,6 +256,11 @@ nav ul ul {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  #iframe_vid{
+    width: 100%;
+    height: 350px;
+  }
+
   .special{
     width:50% !important;
   }
@@ -306,6 +324,11 @@ nav ul ul {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
+  #iframe_vid{
+    width: 100%;
+    height: 350px;
+  }
+
   #iframe_map{
   height: 350px;
   width: 100%;    
@@ -375,24 +398,32 @@ nav ul ul {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+
+  #iframe_vid{
+    width: 100%;
+    height: 225px;
+  }
+
   #iframe_map{
   height: 350px;
   width: 100%;    
-  }   
+  }
+     
   .navbar-default:before,
   .navbar-default:after {
     display: table;
   	content: " ";
   }
+
   .col-lg-4>h3 {
-    font-size: 19px;
-  }
-  .visible-xss{
-    display: block;
-    visibility: visible;
+    font-size: 22px;
   }
 
-  .visible-xs{
+  .visible-xss{
+    visibility: visible;
+    display: inherit;
+  }
+  .hidden-xss{
     display: none;
     visibility: hidden;
   }
@@ -451,4 +482,5 @@ nav ul ul {
     visibility: hidden !important;
   }	    
 }
+
 /*--------------------------- Responsive Settings: end --------------------*/
