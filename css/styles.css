@@ -3,10 +3,14 @@
 body{
 }
 
+.col-lg-4 > img{
+  max-width:100%;
+  height:auto;
+}
+
 #logo_left{
 	margin-bottom: 20px;
 	/*float:left;*/
-
 }
 
 #logo_right{
@@ -59,8 +63,9 @@ nav ul ul {
   text-align: center;
 }
 
-.map_glyph > a {
+.map_glyph {
   text-decoration: none;
+  vertical-align: middle !important;
 }
 
 .blueimp-gallery-carousel{
@@ -187,6 +192,21 @@ nav ul ul {
     width: 100%;
     height: 450px;
   }
+  .col-lg-4 {
+    text-align: center;
+    margin-top: 7%;
+  }
+  .col-lg-4 > p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    white-space: justify;
+  }
+  .col-lg-4 > h3{
+  text-align: center;
+  font-size: 30px;
+  }
+
   .special{
     width:33.3% !important;
   }
@@ -260,7 +280,19 @@ nav ul ul {
     width: 100%;
     height: 350px;
   }
-
+  .col-lg-4 {
+    text-align: center;
+    margin-top: 7%;
+  }
+  .col-lg-4 > p {
+    margin-left: 12%;
+    margin-right: 8%;
+    text-align: left;
+  }
+  .col-lg-4 > h3{
+  text-align: center;
+  font-size: 30px;
+  }
   .special{
     width:50% !important;
   }
@@ -328,10 +360,21 @@ nav ul ul {
     width: 100%;
     height: 350px;
   }
-
+  .col-lg-4 > h3{
+    font-size: 30px;
+  }
+  .col-lg-4 {
+    margin-top: 15%;
+  }
   #iframe_map{
   height: 350px;
   width: 100%;    
+  }
+
+  .jumbotron .btn{
+    font-size: 20px;
+    padding: 10px;
+
   } 
 
   .navbar-default:before,
@@ -408,6 +451,11 @@ nav ul ul {
   height: 350px;
   width: 100%;    
   }
+
+  .jumbotron .btn{
+    font-size: 14px;
+    padding: 10px;
+  }
      
   .navbar-default:before,
   .navbar-default:after {
@@ -417,6 +465,9 @@ nav ul ul {
 
   .col-lg-4>h3 {
     font-size: 22px;
+  }
+  .col-lg-4 {
+    margin-top: 15%;
   }
 
   .visible-xss{
