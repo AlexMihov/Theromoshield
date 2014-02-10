@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="dist/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="dist/css/bootstrap-image-gallery.min.css">
+    <link type="text/css" href="formhelper/dist/css/bootstrap-formhelpers.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -95,6 +96,7 @@
                 <li><a href="#">Separated link</a></li>-->
               </ul>
             </li>
+            <li><a href="#language" data-toggle="modal">Sprache</a></li>
           </ul>
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
@@ -130,11 +132,37 @@
                 <li><a href="#">Separated link</a></li>-->
               </ul>
             </li>
+            <li><a href="#language" data-toggle="modal">Sprache</a></li>
           </ul>          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
+    <div class="modal fade bs-modal-sm" id="language" tabindex="-1" role="dialog" aria-labelledby="Sprache ändern" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Sprache ändern</h4>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="php/distributor.php" role="form">
+              <div class="form-group special hidden-xs">
+                <label>Sprache</label>
+                <div class="bfh-selectbox bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB" data-flags="true"></div>
+              </div>
+              <div class="form-group special visible-xs">
+                <label>Sprache</label>
+                <select class="form-control bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB"></select>
+              </div>
+             </form>             
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>    
     <div class="container" id="inner_container">
       <!-- Jumbotron -->
       <div class="jumbotron">
@@ -179,41 +207,41 @@
       </div>            
 
           <div id="links">
-              <a href="produkte_bilder/ser_1.jpg" title="Ser-Ba Grup Projekt" data-gallery>
+              <a href="produkte_bilder/ser_1.jpg" title="Ser-Ba Group Projekt" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_2.jpg" title="Ser-Ba Grup Produkte" data-gallery>
+              <a href="produkte_bilder/ser_2.jpg" title="Climate-Shield&reg Produkte" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_3.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_3.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_4.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_4.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_5.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_5.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_7.jpg" title="Ser-Ba Grup Projekt" data-gallery>
+              <a href="produkte_bilder/ser_7.jpg" title="Ser-Ba Group Projekt" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_8.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_8.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
               <a href="produkte_bilder/ser_9.jpg" title="Tankbeschichtungen" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_10.jpg" title="Ser-Ba Grup Projekt" data-gallery>
+              <a href="produkte_bilder/ser_10.jpg" title="Ser-Ba Group Projekt" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_11.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_11.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_12.jpg" title="Ser-Ba Grup Projekt" data-gallery>
+              <a href="produkte_bilder/ser_12.jpg" title="Ser-Ba Group Projekt" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_13.jpg" title="Ser-Ba Grup Produktanwendung" data-gallery>
+              <a href="produkte_bilder/ser_13.jpg" title="Climate-Shield&reg Produktanwendung" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_14.jpg" title="Ser-Ba Grup Projekt" data-gallery>
+              <a href="produkte_bilder/ser_14.jpg" title="Ser-Ba Group Projekt" data-gallery>
               </a>
-              <a href="produkte_bilder/ser_15.jpg" title="Ser-Ba Grup" data-gallery>
+              <a href="produkte_bilder/ser_15.jpg" title="Climate-Shield&reg" data-gallery>
               </a>
-              <a href="produkte_bilder/aui_primer.jpg" title="Aussen- und Innengrundierung" data-gallery>
+              <a href="produkte_bilder/aui_primer.jpg" title="Stuckschild" data-gallery>
               </a>
               <a href="produkte_bilder/metalprimer.jpg" title="Metallgrundierung" data-gallery> 
               </a>
               <a href="produkte_bilder/rostkonverter.jpg" title="Rostkonverter" data-gallery>
               </a>
-              <a href="produkte_bilder/stuccoschild.jpg" title="Stuckschild" data-gallery>
+              <a href="produkte_bilder/stuccoschild.jpg" title="Aussen- und Innengrundierung" data-gallery>
               </a>
               <a href="produkte_bilder/tankbeschichtungen.jpg" title="Tankbeschichtungen" data-gallery>
               </a>
@@ -242,7 +270,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-      <script src="dist/js/bootstrap.js"></script>      
+      <script src="dist/js/bootstrap.js"></script>
+      <script src="formhelper/dist/js/bootstrap-formhelpers.js"></script>      
       <script>
       blueimp.Gallery(
           document.getElementById('links').getElementsByTagName('a'),
