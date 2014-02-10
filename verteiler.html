@@ -15,7 +15,8 @@
 
     <!-- Custom styles for this template -->
     <link href="dist/css/justified-nav.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link type="text/css" href="formhelper/dist/css/bootstrap-formhelpers.min.css" rel="stylesheet">
 
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -92,6 +93,13 @@
                 <li><a href="#">Separated link</a></li>-->
               </ul>
             </li>
+            <li class="dropdown">
+              <a><span class="bfh-languages" data-language="de_DE" data-flags="true"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="../tr/index.html"><span class="bfh-languages" data-language="tr_TR" data-flags="true"></span></a></li>
+                <li><a href="../en/index.html"><span class="bfh-languages" data-language="en_GB" data-flags="true"></span></a></li>
+                </ul>
+            </li>
           </ul>
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
@@ -127,10 +135,38 @@
                 <li><a href="#">Separated link</a></li>-->
               </ul>
             </li>
+            <li><a href="#language" data-toggle="modal"><span class="bfh-languages" data-language="de_DE" data-flags="true"></span></a></li>
           </ul>          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <div class="modal fade bs-modal-sm" id="language" tabindex="-1" role="dialog" aria-labelledby="Sprache ändern" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Sprache ändern</h4>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="php/redirect.php" role="form">
+              <div class="form-group special hidden-xs">
+                <label>Sprache</label>
+                <div class="bfh-selectbox bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB" data-flags="true"></div>
+              </div>
+              <div class="form-group special visible-xs">
+                <label>Sprache</label>
+                <select name="country" class="form-control bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB"></select>
+              </div>
+                         
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+          </form> 
+        </div>
+      </div>
+    </div>    
 
       <!-- Site footer -->
     <div class="container" id="inner_container">   
@@ -639,6 +675,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
+    <script src="formhelper/dist/js/bootstrap-formhelpers.js"></script> 
     <script type="text/javascript">
       function urlChange(url) {
         var url_google = url;
