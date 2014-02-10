@@ -7,13 +7,13 @@
 
 switch ($country) {
     case "de_DE":
-        header("Location: ../de/".$target);exit;
+        header("Location: ../../de/".$target);exit;
         break;
     case "en_GB":
-        header("Location: ../en/".$target);exit;
+        header("Location: ../../en/".$target);exit;
         break;
     case "tr_TR":
-        header("Location: ../tr/".$target);exit;
+        header("Location: ../../tr/".$target);exit;
         break;
 }
 ?>
