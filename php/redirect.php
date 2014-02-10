@@ -1,8 +1,8 @@
 <?php
 	$country = $_POST["country"];
-	echo $country;
+	echo $_SERVER[HTTP_REFERER];
 
-
+/*
 switch ($country) {
     case "de_DE":
         header("Location: ../de/index.html");exit;
@@ -14,5 +14,5 @@ switch ($country) {
         header("Location: ../tr/index.html");exit;
         break;
 }
-
+*/
 ?>
