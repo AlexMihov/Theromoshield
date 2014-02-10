@@ -16,6 +16,4 @@ switch ($country) {
         header("Location: ../tr/".$target);exit;
         break;
 }
-
-
 ?>

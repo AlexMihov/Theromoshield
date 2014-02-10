@@ -13,7 +13,9 @@ for example, get_languages( 'data' ):
 
 // choice of redirection header or just getting language data
 // to call this you only need to use the $feature parameter
-function get_languages( $feature, $spare='' )
+get_languages('header');
+
+function get_languages( $feature )
 {
     // get the languages
     $a_languages = languages();
