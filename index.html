@@ -132,7 +132,7 @@
                 <li><a href="#">Separated link</a></li>-->
               </ul>
             </li>
-            <li><a href="#language" data-toggle="modal">Sprache</a></li>
+            <li><a href="#language" data-toggle="modal"><span class="bfh-languages" data-language="de_DE" data-flags="true"></span></a></li>
           </ul>          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -145,21 +145,22 @@
             <h4 class="modal-title" id="myModalLabel">Sprache ändern</h4>
           </div>
           <div class="modal-body">
-            <form method="POST" action="php/distributor.php" role="form">
+            <form method="POST" action="php/redirect.php" role="form">
               <div class="form-group special hidden-xs">
                 <label>Sprache</label>
                 <div class="bfh-selectbox bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB" data-flags="true"></div>
               </div>
               <div class="form-group special visible-xs">
                 <label>Sprache</label>
-                <select class="form-control bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB"></select>
+                <select name="country" class="form-control bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB"></select>
               </div>
-             </form>             
+                         
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             <button type="submit" class="btn btn-success">Submit</button>
           </div>
+          </form> 
         </div>
       </div>
     </div>    
@@ -191,10 +192,10 @@
           <h1 class="hidden-xss"><br><br>Materialpräsentation</h1>
           <h1 class="visible-xss"><br><br>Material-<br>präsentation</h1>
           <p class="lead">
-          Climate-Shield® ist ein elastometrisches, auf Wasser basierendes System, welches vollständig
-          aus Acrylharz gefüllt mit hohlen, vakuumierte Sodiumborosilacat und Keramik Mikrosphären besteht.
-          Dank diesen sind die Climate-Shield&reg Produkte sehr langlebig in vergleich zu anderen, organischen
-          Produkten, welche dem Wetter und Natur zum Opfer fallen.
+            Climate-Shield® ist ein elastometrisches, auf Wasser basierendes System, welches vollständig
+            aus Acrylharz gefüllt mit hohlen, vakuumierte Sodiumborosilacat und Keramik Mikrosphären besteht.
+            Dank diesen sind die Climate-Shield&reg Produkte sehr langlebig in vergleich zu anderen, organischen
+            Produkten, welche dem Wetter und Natur zum Opfer fallen.
           </p>
             <div class="gallerie" id="iframe_alert" data-content="Dont change the url, it is not allowed!" data-placement="top" data-toggle="popover" data-container="body">
               <iframe id="iframe_vid" width="100%" height="500px" src="http://www.youtube.com/embed/i-slyb7XiBQ?rel=0" frameborder="0" allowfullscreen></iframe>

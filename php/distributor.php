@@ -10,19 +10,12 @@ $message = $_POST["message"];
 
 // write the email content
 $email_content = "Isim: " . $name;
-echo $email_content . "\n";
 $email_content .= $nachname . "\n";
-echo $email_content . "\n";
 $email_content .= "Email: " . $email . "\n";
-echo $email_content . "\n";
 $email_content .= "Telefon: " . $tel . "\n";
-echo $email_content . "\n";
 $email_content .= "Şehir: ". $city . "\n";
-echo $email_content . "\n";
 $email_content .= "Ülke: " . $country . "\n";
-echo $email_content . "\n";
 $email_content .= "Mesaj:" ."\n".$message;
-echo $email_content . "\n";
 // send the email
 $header = "From:". $email . "\r\n" .
     "Reply-To:". $email . "\r\n" .
