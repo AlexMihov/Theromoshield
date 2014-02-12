@@ -15,10 +15,9 @@
 
     <!-- Custom styles for this template -->
     <link href="../dist/css/justified-nav.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/styles.css">
     <link rel="stylesheet" href="../dist/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="../dist/css/bootstrap-image-gallery.min.css">
-    <link type="text/css" href="../dist/formhelper/dist/css/bootstrap-formhelpers.min.css" rel="stylesheet">
+    <link type="text/css" href="../dist/css/bootstrap-formhelpers.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -38,8 +37,8 @@
         <div class="row visible-xs">
           <div class="col-xs-6">
             <img class="img-responsive" src="../logos/logo_left.jpg">
-          </div>  
-          <div class="col-xs-6">  
+          </div>
+          <div class="col-xs-6">
             <img class="img-responsive" src="../logos/logo_right.jpg">
           </div>
         </div>
@@ -150,7 +149,7 @@
             <form method="POST" action="../php/redirect.php" role="form">
               <div class="form-group special">
                 <label>Sprache</label>
-                <select name="country" class="form-control bfh-languages" data-blank="false" data-language="de_DE" data-available="de_DE,tr_TR,en_GB"></select>
+                <select name="country" class="form-control bfh-languages" data-blank="false" data-language="de" data-available="de,tr,en"></select>
               </div>
                          
           </div>
@@ -266,10 +265,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-      <script src="../dist/js/bootstrap.js"></script>
-      <script src="../dist/formhelper/dist/js/bootstrap-formhelpers.js"></script>      
+      <script src="../dist/js/jquery-1.11.0.min.js"></script>
+      <script src="../dist/js/jquery.blueimp-gallery.min.js"></script>
+      <script src="../dist/js/bootstrap.min.js"></script>
+      <script src="../dist/js/bootstrap-formhelpers.min.js"></script>      
       <script>
       blueimp.Gallery(
           document.getElementById('links').getElementsByTagName('a'),
