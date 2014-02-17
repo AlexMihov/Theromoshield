@@ -4,7 +4,7 @@
 //	echo $_SERVER[HTTP_REFERER];
     $serverInfos = explode('/',$_SERVER[HTTP_REFERER]);
     $target = end($serverInfos);
-    echo $target;
+    //echo $target;
 
 switch ($country) {
     case "de":
