@@ -1,4 +1,5 @@
 <?php
+    ob_start();
 	$country = $_POST["country"];
 //	echo $_SERVER[HTTP_REFERER];
     $serverInfos = explode('/',$_SERVER[HTTP_REFERER]);
@@ -6,16 +7,16 @@
     echo $target;
 
 switch ($country) {
-    case "de_DE":
+    case "de":
         header("Location: ../de/".$target);exit;
         break;
-    case "en_GB":
+    case "en":
         header("Location: ../en/".$target);exit;
         break;
-    case "tr_TR":
+    case "tr":
         header("Location: ../tr/".$target);exit;
         break;
 }
-
+    ob_flush();
 
 ?>
