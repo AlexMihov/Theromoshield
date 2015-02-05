@@ -1,16 +1,6 @@
 <?php
         
-        /******************************************
-        Script is currently set to accept 2 parameters, triggered by $feature value.
-        for example, get_languages( 'data' ):
-        1. 'header' - sets header values, for redirects etc. No data is returned
-        2. 'data' - for language data handling, ie for stats, etc.
-            Returns an array of the following 4 item array for each language the os supports:
-            1. full language abbreviation, like en-ca
-            2. primary language, like en
-            3. full language string, like English (Canada)
-            4. primary language string, like English
-        *******************************************/
+
 
         // choice of redirection header or just getting language data
         // to call this you only need to use the $feature parameter
